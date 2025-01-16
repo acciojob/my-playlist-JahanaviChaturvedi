@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+#my-playlist {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+     width: 550px;
+  
+}
+h1,h2{
+	text-align: center;
+}
+li{
+	list-style-type :none
+}
+a{
+	text-decoration : none;
+	color : black
+}
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
+
+.b {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.player_one {
+    background-color: rgb(255, 255, 255); /* Explicitly set white background */
+    width: 550px;
+    border-radius: 10px;
+    padding: 20px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.player_two {
+    background-color: rgb(255, 255, 255); 
+    width: 550px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto 0 auto; 
+}
